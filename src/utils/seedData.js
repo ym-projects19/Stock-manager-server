@@ -283,7 +283,7 @@ const seedData = async () => {
 // Run seeding if called directly
 if (require.main === module) {
   require('dotenv').config();
-  mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/playschool-stock')
+  mongoose.connect(process.env.MONGO_URI || 'mongodb://localhost:27017/playschool-stock')
     .then(() => {
       console.log('Connected to MongoDB');
       return seedData();
