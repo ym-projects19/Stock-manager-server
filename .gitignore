@@ -1,0 +1,57 @@
+# Node dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Build / output
+build/
+dist/
+.tmp/
+.cache/
+
+# Environment files
+.env
+.env.example
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+logs/
+*.log
+*.log.*
+debug.log
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Coverage / testing
+coverage/
+.nyc_output/
+
+# PM2 / process managers
+.pids
+*.pid
+*.seed
+*.pid.lock
+
+# Database / uploads (if generated locally)
+uploads/
+storage/
+data/
+dump/
+
+# Misc caches
+.eslintcache
+.stylelintcache
+*.tsbuildinfo
