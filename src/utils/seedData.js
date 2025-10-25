@@ -267,12 +267,12 @@ const seedData = async () => {
       });
       await transaction.save();
     }
-    console.log('✓ Sample transactions created');
+    // console.log('✓ Sample transactions created');
     
-    console.log('\n🎉 Database seeding completed successfully!');
-    console.log('\nDemo Credentials:');
-    console.log('Admin: admin@playschool.com / admin123');
-    console.log('Staff: jane@playschool.com / staff123');
+    // console.log('\n🎉 Database seeding completed successfully!');
+    // console.log('\nDemo Credentials:');
+    // console.log('Admin: admin@playschool.com / admin123');
+    // console.log('Staff: jane@playschool.com / staff123');
     
   } catch (error) {
     console.error('❌ Seeding failed:', error);
